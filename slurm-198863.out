@@ -1,0 +1,145 @@
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.52s/it]
+Device set to use cuda:0
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (2048). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+Running RAG demo with predefined questions...
+
+
+============================================================
+QUESTION: What is deep learning?
+============================================================
+
+Generating query...
+Prompt length:  230
+Generating response with no RAG...
+Prompt length:  129
+Searching...
+Extracting main content...
+Generating final response with RAG...
+Prompt length:  6303
+
+============================================================
+RESULTS FOR: What is deep learning?
+Search query: What is deep learning and how does it work?
+
+Model's response with no RAG:
+Deep learning is a sub-field of artificial intelligence (AI) that focuses on the development of algorithms and models capable of learning from data, making predictions, and adapting to new situations. It is a technique used in various applications such as image recognition, language translation, and natural language processing. The main idea behind deep learning is to create a system that can learn complex patterns and relationships from large sets of data by using multiple layers of processing and representation. This allows the system to generalize better and make more accurate predictions based on the information provided.
+
+
+Final response with RAG:
+Deep learning is a subfield of artificial intelligence (AI) that focuses on the study of how machines can learn and understand complex data. It is a powerful technique that utilizes artificial neural networks (ANNs) to process information and recognize patterns. Deep learning differs from machine learning because it takes advantage of the power of neural networks to learn from large datasets and identify complex features.
+
+The process of deep learning begins with the input layer, which captures raw data. Next, the data passes through several subsequent layers, each identifying increasingly complex features. The learning process occurs by adjusting the connections between neurons, similar to how the human brain functions. This allows the machine to better understand and interpret complex data.
+
+Deep learning is particularly powerful because it can automatically learn from data without explicit programming. This is achieved through supervised learning, where the model learns from labeled examples to make predictions or classifications. Some common applications of deep learning include image recognition, speech recognition, and natural language processing.
+
+In summary, deep learning is a subfield of artificial intelligence that uses neural networks to learn from large datasets and identify complex patterns. It is a powerful technique that enables machines to improve their performance and adapt to new situations.
+
+
+Reference: ['https://365datascience.com/trending/what-is-deep-learning/', 'https://www.bitpanda.com/academy/en/lessons/deep-learning', 'https://jesuitroundup.org/what-and-how-does-deep-learning-work/']
+============================================================
+
+
+============================================================
+QUESTION: How do transformers work in NLP?
+============================================================
+
+Generating query...
+Prompt length:  240
+Generating response with no RAG...
+Prompt length:  139
+Searching...
+Extracting main content...
+Generating final response with RAG...
+Prompt length:  6181
+
+============================================================
+RESULTS FOR: How do transformers work in NLP?
+Search query: What is the process of transforming information in NLP?
+
+Model's response with no RAG:
+In NLP (Neuro-Linguistic Programming), transformers are a key concept that helps individuals develop their self-awareness, emotional intelligence, and personal growth. They play a significant role in helping people understand their thoughts, feelings, and behaviors better and improve their overall well-being.
+
+Transformers in NLP work by helping individuals identify and change negative thought patterns, beliefs, and behaviors that may be holding them back from achieving their goals or experiencing personal growth. By identifying these patterns, individuals can then replace them with more positive and constructive thoughts, beliefs, and behaviors. This process is known as "metaphorical" or "symbolic" transformation because it involves using metaphorical language and symbols to help individuals visualize and understand the changes they want to make.
+
+Transformers in NLP can be categorized into three main types:
+
+1. Cognitive Transformers: These transformers focus on changing an individual's thought patterns, beliefs, and assumptions about themselves, others, and situations. Cognitive transformers often involve the use of metaphors, stories, and other creative techniques to help individuals see things differently and create new perspectives.
+
+2. Behavioral Transformers: These transformers work on changing an individual's behavior, such as habits, routines, or habits related to emotions. Behavioral transformers often use techniques like role-play, simulations, and other experiential exercises to help individuals become more aware of their current behaviors and develop new ones.
+
+3. Emotional Transformers: These transformers focus on changing an individual's emotional state, such as their mood, energy levels, and overall emotional well-being. Emotional transformers often use techniques like visualization, mindfulness, and other cognitive restructuring techniques to help individuals become more emotionally resilient and adaptable.
+
+By working with transformers, individuals can gain greater self-awareness, develop healthier relationships, and achieve personal and professional success. Through the use of metaphorical and symbolic language, individuals can learn to recognize and replace negative thought patterns, beliefs, and behaviors with more positive and constructive ones, ultimately leading to personal growth and well-being.
+
+
+Final response with RAG:
+Transformers in natural language processing (NLP) work by taking an input sentence and breaking it down into smaller components called tokens. These tokens are then processed by a series of neural networks, which are designed to recognize patterns and relationships within the text. Once the neural networks have processed the tokens, they produce a new output that represents the meaning of the original input.
+
+Here's a breakdown of how transformers work in NLP:
+
+1. Tokenization: Transformers take the input sentence and break it down into individual words or phrases. This helps them focus on specific parts of the text rather than trying to understand the entire sentence.
+
+2. Neural Network Architecture: Transformers use a neural network architecture, which is a set of interconnected processing units that can learn and adapt to new information. They are designed to recognize patterns and relationships within the text, allowing them to better understand the meaning behind the words.
+
+3. Training Data: Transformers require training data to learn and improve their performance. This includes a variety of inputs, such as text, images, and even audio. By observing and analyzing these inputs, the neural networks can learn to recognize patterns and relationships within the text.
+
+4. Output: After processing the input sentence, the transformer produces an output that represents the meaning of the original input. This output can be further processed by other models or algorithms to achieve desired outcomes, such as generating a prediction or generating a response to a user's query.
+
+5. Model Deployment: Once the transformer has learned to recognize patterns and relationships within the text, it can be deployed in various applications, such as text-to-speech, text-to-image, or text-to-video. This allows the transformer to perform tasks related to natural language processing and generate meaningful outputs.
+
+In summary, transformers in NLP work by breaking down the input sentence into smaller components, recognizing patterns and relationships within the text, and producing an output that represents the meaning of the original input. This process allows them to better understand and process human language, leading to improved performance in various applications.
+
+
+Reference: ['https://www.digitalocean.com/resources/articles/natural-language-processing', 'https://www.voiceflow.com/blog/natural-language-processing', 'http://preprod.francophonie2024.gouv.fr/71518021/enable/stretch/introduce/transformational+nlp+a+new+psychology.pdf']
+============================================================
+
+
+============================================================
+QUESTION: Explain the concept of attention mechanism
+============================================================
+
+Generating query...
+Prompt length:  250
+Generating response with no RAG...
+Prompt length:  149
+Searching...
+Extracting main content...
+Generating final response with RAG...
+Prompt length:  9191
+
+============================================================
+RESULTS FOR: Explain the concept of attention mechanism
+Search query: What is the attention mechanism in the context of cognitive psychology and how does it work?
+
+Model's response with no RAG:
+The concept of attention mechanisms refers to the process by which an individual focuses their cognitive resources on a specific task or activity. Attention is a fundamental aspect of human cognition, as it allows us to process and understand information in our environment. There are several types of attention mechanisms that help us focus on different aspects of our surroundings, such as visual, auditory, and kinesthetic (touch) senses.
+
+1. Visual Attention: This type of attention involves the process of focusing on objects or images in our field of vision. When we look at something, our brain processes the visual information and selects the most important details for our awareness. This can be achieved through the use of visual cues, such as color, shape, and size.
+
+2. Auditory Attention: This type of attention involves the process of focusing on sounds or speech in our environment. When we listen to someone talking or a song, our brain processes the auditory information and selects the most important details for our awareness. This can be achieved through the use of auditory cues, such as pitch, rhythm, and volume.
+
+3. Kinesthetic Attention: This type of attention involves the process of focusing on physical sensations or movements in our environment. When we touch or move our body, our brain processes the kinesthetic information and selects the most important details for our awareness. This can be achieved through the use of kinesthetic cues, such as pressure, temperature, and vibration.
+
+In summary, attention mechanisms are essential for our cognitive functioning, allowing us to focus on specific tasks or activities while processing and understanding our surroundings. These mechanisms work together to create a dynamic and efficient environment for learning, decision-making, and problem-solving.
+
+
+Final response with RAG:
+The concept of attention mechanism refers to the process through which humans or animals focus their attention on certain aspects of their surroundings, allowing them to perceive and respond to the environment effectively. Attention plays a critical role in our daily lives, as it helps us to concentrate on the most important aspects of our surroundings, making decisions, and performing tasks efficiently.
+
+There are various types of attention mechanisms, such as the classical attention model, the attention-deficit hyperactivity disorder (ADHD), and the attention-deficit disorder with attention-deficit hyperactivity disorder (ADHD-ADHD). Each type of attention mechanism serves a unique purpose in helping individuals to focus on the most relevant aspects of their surroundings.
+
+The classical attention model, developed by John Stuart Mill, is a simple model that describes the process of focusing one's attention on a particular object or event. In this model, the individual's attention is divided into three components - the sensory input, the internal representation, and the motor output. When an individual is exposed to a stimulus, their brain processes the information received and creates a mental representation of the situation. This mental representation allows the individual to interpret the information and make decisions accordingly.
+
+The attention-deficit hyperactivity disorder (ADHD) is a mental health condition characterized by difficulties paying attention, staying focused, and controlling impulsivity. ADHD is often accompanied by other co-occurring conditions, such as anxiety, depression, and oppositional defiant disorder. Individuals with ADHD may struggle to maintain focus on tasks, find it difficult to stay organized, and may exhibit disruptive behaviors.
+
+The attention-deficit disorder with attention-deficit hyperactivity disorder (ADHD-ADHD) is another variant of ADHD. It is characterized by the presence of ADHD-ADHD symptoms, such as inattentions, and the ability to attend to details.
+
+The concept of attention mechanism
+
+
+Reference: ['https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/', 'https://www.britannica.com/science/attention', 'https://en.wikipedia.org/wiki/Attention']
+============================================================
+
+RAG demo completed successfully!
