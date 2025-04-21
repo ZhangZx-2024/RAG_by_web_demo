@@ -1,0 +1,1361 @@
+Loading model and tokenizer...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.14s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.33s/it]
+Device set to use cuda:0
+RAG demo ready. Processing test dataset in batches...
+Loaded 40 questions from dataset
+
+Processing batch 1 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:02<00:08,  2.00s/it] 40%|████      | 2/5 [00:04<00:06,  2.00s/it] 60%|██████    | 3/5 [00:06<00:04,  2.00s/it] 80%|████████  | 4/5 [00:08<00:02,  2.00s/it]100%|██████████| 5/5 [00:22<00:00,  6.47s/it]100%|██████████| 5/5 [00:22<00:00,  4.48s/it]
+Question 1 already processed, skipping...
+Question 2 already processed, skipping...
+Question 3 already processed, skipping...
+Question 4 already processed, skipping...
+
+
+
+
+Question: In March 2025, which globally renowned tech giant announced the release of a new series of AI chips?
+Correct Answer: Google
+Generating query...
+Prompt length: 53 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 31 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Request to https://www.usnews.com/news/best-states/california/articles/2025-04-14/nvidia-plans-to-manufacture-ai-chips-in-the-us-for-the-first-time timed out
+Content too large (1165 tokens), truncating to 250...
+Truncated content from 1165 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 316 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which globally renowned tech giant announced the release of a new series of AI chips?
+Correct Answer: Google
+Search query: In March 2025, which globally renowned tech giant announced the release of a new series of AI chips?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.usnews.com/news/best-states/california/articles/2025-04-14/nvidia-plans-to-manufacture-ai-chips-in-the-us-for-the-first-time', 'https://www.bbc.com/news/articles/cedy6gl99eno', 'https://techxplore.com/news/2025-04-nvidia-ai-chips.html']
+########################################
+
+Processing batch 2 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:06<00:25,  6.48s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (2823 > 2048). Running this sequence through the model will result in indexing errors
+ 40%|████      | 2/5 [00:13<00:19,  6.55s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+ 60%|██████    | 3/5 [00:22<00:15,  7.81s/it] 80%|████████  | 4/5 [00:28<00:06,  7.00s/it]Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+100%|██████████| 5/5 [00:39<00:00,  8.57s/it]100%|██████████| 5/5 [00:39<00:00,  7.90s/it]
+
+
+
+
+Question: In early March 2025, FIFA introduced a groundbreaking initiative. What was this initiative?
+Correct Answer: The introduction of VAR 2.0 (Video Assistant Referee 2.0)
+Generating query...
+Prompt length: 51 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 29 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (772 tokens), truncating to 250...
+Truncated content from 772 to 240 tokens
+Content too large (1456 tokens), truncating to 250...
+Truncated content from 1456 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 530 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In early March 2025, FIFA introduced a groundbreaking initiative. What was this initiative?
+Correct Answer: The introduction of VAR 2.0 (Video Assistant Referee 2.0)
+Search query: In early March 2025, FIFA introduced a groundbreaking initiative. What was this initiative?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://nowtoronto.com/culture/toronto-producer-creates-fifa-theme-song/', 'https://m.facebook.com/Osatkeys/photos/breaking-fifa-proposes-4-groundbreaking-rule-changes-to-revolutionize-footballge/9780865821965854/', 'https://www.ussoccer.com/stories/2025/03/us-soccer-unveils-member-focused-strategic-framework-and-initiatives-at-2025-annual-general-meeting-in-atlanta']
+########################################
+
+
+
+
+Question: At its economic summit in March 2025, which new economic plan did India propose?
+Correct Answer: Digital India 2.0
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (450 tokens), truncating to 250...
+Truncated content from 450 to 240 tokens
+Content too large (2823 tokens), truncating to 250...
+Truncated content from 2823 to 240 tokens
+Content too large (1973 tokens), truncating to 250...
+Truncated content from 1973 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 526 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: At its economic summit in March 2025, which new economic plan did India propose?
+Correct Answer: Digital India 2.0
+Search query: At its economic summit in March 2025, which new economic plan did India propose?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://m.economictimes.com/news/india/india-is-in-midst-of-new-revolution-pm-modi-notes-economic-reforms-vision-for-viksit-bharat-at-et-now-global-business-summit/articleshow/118284356.cms', 'https://www.india-briefing.com/news/indias-union-budget-2025-26-highlights-reforms-to-drive-economic-growth-manufacturing-consumption-36011.html/', 'https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2098353']
+########################################
+
+
+
+
+Question: In March 2025, the world’s largest electric vehicle manufacturer launched a new model. What is the model’s name?
+Correct Answer: Tesla Model Z
+Generating query...
+Prompt length: 58 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 36 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (2433 tokens), truncating to 250...
+Truncated content from 2433 to 240 tokens
+Content too large (2559 tokens), truncating to 250...
+Truncated content from 2559 to 240 tokens
+Content too large (1840 tokens), truncating to 250...
+Truncated content from 1840 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 537 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, the world’s largest electric vehicle manufacturer launched a new model. What is the model’s name?
+Correct Answer: Tesla Model Z
+Search query: In March 2025, the world’s largest electric vehicle manufacturer launched a new model. What is the model’s name?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.cnn.com/2025/03/26/cars/china-byd-profile-tesla-rival-intl-hnk/index.html', 'https://www.novunavehiclesolutions.co.uk/news-and-insights/electrification/new-car-brands-to-look-out-for-in-2025-and-beyond/', 'https://www.autoexpress.co.uk/byd/366287/byds-plan-be-worlds-biggest-car-brand']
+########################################
+
+
+
+
+Question: In March 2025, which Chinese city successfully hosted the inaugural International Artificial Intelligence Expo?
+Correct Answer: Shenzhen
+Generating query...
+Prompt length: 51 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 29 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (982 tokens), truncating to 250...
+Truncated content from 982 to 240 tokens
+Content too large (1930 tokens), truncating to 250...
+Truncated content from 1930 to 240 tokens
+Content too large (9917 tokens), truncating to 250...
+Truncated content from 9917 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 527 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which Chinese city successfully hosted the inaugural International Artificial Intelligence Expo?
+Correct Answer: Shenzhen
+Search query: In March 2025, which Chinese city successfully hosted the inaugural International Artificial Intelligence Expo?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.chinatelecomglobal.com/sc/whats-new/37325', 'https://www.chinadailyasia.com/article/609485', 'https://www.chinadaily.com.cn/business/full_coverage/67f5e616a3104d9fd381e57e']
+########################################
+
+
+
+
+Question: In March 2025, which Australian city piloted an autonomous driverless bus system?
+Correct Answer: Melbourne
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (306 tokens), truncating to 250...
+Truncated content from 306 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 332 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which Australian city piloted an autonomous driverless bus system?
+Correct Answer: Melbourne
+Search query: In March 2025, which Australian city piloted an autonomous driverless bus system?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://imoveaustralia.com/project-information/', 'https://www.sustainable-bus.com/news/', 'https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0324/2025032401238.pdf']
+########################################
+
+Processing batch 3 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:06<00:27,  6.89s/it] 40%|████      | 2/5 [00:14<00:21,  7.14s/it] 60%|██████    | 3/5 [00:20<00:13,  6.54s/it] 80%|████████  | 4/5 [00:25<00:06,  6.30s/it]100%|██████████| 5/5 [00:30<00:00,  5.76s/it]100%|██████████| 5/5 [00:30<00:00,  6.16s/it]
+
+
+
+
+Question: In March 2025, the United Arab Emirates announced a major breakthrough in an emerging field. What is the field?
+Correct Answer: Quantum computing applied to smart city management
+Generating query...
+Prompt length: 56 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 34 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (16836 tokens), truncating to 250...
+Truncated content from 16836 to 240 tokens
+Content too large (4220 tokens), truncating to 250...
+Truncated content from 4220 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 533 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, the United Arab Emirates announced a major breakthrough in an emerging field. What is the field?
+Correct Answer: Quantum computing applied to smart city management
+Search query: In March 2025, the United Arab Emirates announced a major breakthrough in an emerging field. What is the field?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.csis.org/analysis/united-arab-emirates-ai-ambitions', 'https://www.wam.ae/en/article/biigyxt-epaa-announces-discovery-three-new-recorded-plant', 'https://www.faf.ae/home/2025/3/14/the-state-of-ai-in-2025-march-2025-latest-developments-and-breakthroughs']
+########################################
+
+
+
+
+Question: In March 2025, which country announced it would host the first World Horticultural Exposition in 2026?
+Correct Answer: New Zealand
+Generating query...
+Prompt length: 57 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 35 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (2125 tokens), truncating to 250...
+Truncated content from 2125 to 240 tokens
+Content too large (1929 tokens), truncating to 250...
+Truncated content from 1929 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 534 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which country announced it would host the first World Horticultural Exposition in 2026?
+Correct Answer: New Zealand
+Search query: In March 2025, which country announced it would host the first World Horticultural Exposition in 2026?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.instagram.com/businesseventsth/p/DGhx1gWz_UF/', 'https://aiph.org/latest-news/udon-thani-international-horticultural-expo-2026-launches-mascot-design-contest', 'https://aiph.org/latest-news/enter-igoty-2026']
+########################################
+
+
+
+
+Question: In March 2025, which country captured global attention following a significant cybersecurity breach?
+Correct Answer: Thailand
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (6915 tokens), truncating to 250...
+Truncated content from 6915 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 281 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which country captured global attention following a significant cybersecurity breach?
+Correct Answer: Thailand
+Search query: In March 2025, which country captured global attention following a significant cybersecurity breach?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://reports.weforum.org/docs/WEF_Global_Cybersecurity_Outlook_2025.pdf', 'https://www.kwm.com/global/en/insights/topic/data-and-tech-navigating-a-connected-world/cybersecurity.html', 'https://www.cyfirma.com/news/weekly-intelligence-report-21-mar-2025/']
+########################################
+
+
+
+
+Question: In March 2025, which international organization established a new committee to combat misinformation?
+Correct Answer: The United Nations Special Committee on Misinformation Governance
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Error extracting content from https://www.unesco.org/en/articles/kenya-develops-national-code-tackle-digital-disinformation-and-hate-speech?hub=375: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Content too large (1093 tokens), truncating to 250...
+Truncated content from 1093 to 240 tokens
+Content too large (25068 tokens), truncating to 250...
+Truncated content from 25068 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 526 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which international organization established a new committee to combat misinformation?
+Correct Answer: The United Nations Special Committee on Misinformation Governance
+Search query: In March 2025, which international organization established a new committee to combat misinformation?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.unesco.org/en/articles/kenya-develops-national-code-tackle-digital-disinformation-and-hate-speech?hub=375', 'https://unric.org/en/unric-library-backgrounder-combat-misinformation/', 'https://www.eesc.europa.eu/en/news-media/eesc-info/032025']
+########################################
+
+
+
+
+Question: In March 2025, renowned filmmaker Christopher Nolan announced his new film at a premiere event. What is the film’s title?
+Correct Answer: Cycle of Time and Space
+Generating query...
+Prompt length: 60 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 38 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (422 tokens), truncating to 250...
+Truncated content from 422 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 293 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, renowned filmmaker Christopher Nolan announced his new film at a premiere event. What is the film’s title?
+Correct Answer: Cycle of Time and Space
+Search query: In March 2025, renowned filmmaker Christopher Nolan announced his new film at a premiere event. What is the film’s title?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.yahoo.com/entertainment/christopher-nolan-next-movie-adaptation-154828614.html', 'https://www.yahoo.com/entertainment/odyssey-everything-know-christopher-nolan-180038262.html', 'https://abcnews.go.com/GMA/Culture/matt-damon-odysseus-1st-christopher-nolan-odyssey/story?id=118900009']
+########################################
+
+Processing batch 4 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:14<00:56, 14.21s/it] 40%|████      | 2/5 [00:18<00:25,  8.42s/it] 60%|██████    | 3/5 [00:31<00:20, 10.49s/it] 80%|████████  | 4/5 [00:36<00:08,  8.50s/it]100%|██████████| 5/5 [00:41<00:00,  6.89s/it]100%|██████████| 5/5 [00:41<00:00,  8.21s/it]
+
+
+
+
+Question: In March 2025, who was named the MVP of the NBA All-Star Game?
+Correct Answer: Damian Lillard
+Generating query...
+Prompt length: 50 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 28 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Request to https://www.olympics.com/en/news/nba-all-star-game-mvps-complete-list timed out
+Content too large (1529 tokens), truncating to 250...
+Truncated content from 1529 to 240 tokens
+Content too large (342 tokens), truncating to 250...
+Truncated content from 342 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 524 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, who was named the MVP of the NBA All-Star Game?
+Correct Answer: Damian Lillard
+Search query: In March 2025, who was named the MVP of the NBA All-Star Game?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.olympics.com/en/news/nba-all-star-game-mvps-complete-list', 'https://www.nba.com/news/stephen-curry-named-mvp-as-shaqs-ogs-win-all-star-tournament', 'https://sports.yahoo.com/steph-curry-named-2025-star-043837337.html']
+########################################
+
+
+
+
+Question: In March 2025, which pop singer won the Grammy Award for Album of the Year?
+Correct Answer: Taylor Swift
+Generating query...
+Prompt length: 51 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 29 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (32070 tokens), truncating to 250...
+Truncated content from 32070 to 240 tokens
+Content too large (1149 tokens), truncating to 250...
+Truncated content from 1149 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 440 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which pop singer won the Grammy Award for Album of the Year?
+Correct Answer: Taylor Swift
+Search query: In March 2025, which pop singer won the Grammy Award for Album of the Year?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://cdn.media.amplience.net/i/naras/beyonce_album_of_the_year_2025_grammys_acceptance_speech_KW1_3645_2aLIT2tw.webp?sa=X', 'https://grammy.com/news/2025-grammys-nominations-full-winners-nominees-list', 'https://www.npr.org/2025/02/02/nx-s1-5280335/2025-grammy-awards-full-list-nominees-and-winners']
+########################################
+
+
+
+
+Question: In March 2025, a new technology company in Silicon Valley announced a breakthrough in quantum computing. What is the company’s name?
+Correct Answer: QuantumLeap Tech
+Generating query...
+Prompt length: 59 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 37 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Request to https://thequantuminsider.com/2025/03/07/as-nvidias-quantum-day-nears-analysts-suggest-event-is-more-than-a-gesture/ timed out
+########################################
+User input: In March 2025, a new technology company in Silicon Valley announced a breakthrough in quantum computing. What is the company’s name?
+Correct Answer: QuantumLeap Tech
+Search query: In March 2025, a new technology company in Silicon Valley announced a breakthrough in quantum computing. What is the company’s name?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+No web content found for RAG
+
+
+Reference: ['https://sg.finance.yahoo.com/quote/RQ0.DU/press-releases/?ncid=yahooproperties_peoplealso_km0o32z3jzm', 'https://thequantuminsider.com/2025/03/07/as-nvidias-quantum-day-nears-analysts-suggest-event-is-more-than-a-gesture/', 'https://finance.yahoo.com/news/quantum-computing-could-change-science-100000022.html']
+########################################
+
+
+
+
+Question: According to the Global Cities Livability Report in March 2025, which city was ranked as the world’s most livable?
+Correct Answer: Vienna
+Generating query...
+Prompt length: 58 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 36 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (1125 tokens), truncating to 250...
+Truncated content from 1125 to 240 tokens
+Content too large (20872 tokens), truncating to 250...
+Truncated content from 20872 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 534 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: According to the Global Cities Livability Report in March 2025, which city was ranked as the world’s most livable?
+Correct Answer: Vienna
+Search query: According to the Global Cities Livability Report in March 2025, which city was ranked as the world’s most livable?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.cnn.com/2025/01/16/travel/time-out-reveals-worlds-50-best-cities-for-2025/index.html', 'https://www.timeout.com/things-to-do/best-cities-in-the-world', 'https://momentummag.com/cities-on-the-worlds-best-list-are-putting-people-first-not-cars/']
+########################################
+
+
+
+
+Question: In March 2025, the International Olympic Committee announced the host city for the 2028 Olympic Games. Which city was chosen?
+Correct Answer: Los Angeles
+Generating query...
+Prompt length: 60 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 38 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Error extracting content from https://www.olympics.com/en/news/la28-unveils-comprehensive-venue-plan-showcasing-world-class-stadiums-and-iconic-backdrops-across-the-wider-los-angeles-region: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Content too large (5569 tokens), truncating to 250...
+Truncated content from 5569 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 292 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, the International Olympic Committee announced the host city for the 2028 Olympic Games. Which city was chosen?
+Correct Answer: Los Angeles
+Search query: In March 2025, the International Olympic Committee announced the host city for the 2028 Olympic Games. Which city was chosen?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.olympics.com/en/news/la28-unveils-comprehensive-venue-plan-showcasing-world-class-stadiums-and-iconic-backdrops-across-the-wider-los-angeles-region', 'https://en.wikipedia.org/wiki/2028_Summer_Olympics', 'https://www.latimes.com/sports/olympics/story/2025-04-15/dodger-stadium-2028-los-angeles-olympic-venues']
+########################################
+
+Processing batch 5 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:06<00:26,  6.61s/it] 40%|████      | 2/5 [00:30<00:50, 16.81s/it] 60%|██████    | 3/5 [00:35<00:23, 11.50s/it] 80%|████████  | 4/5 [00:42<00:09,  9.66s/it]100%|██████████| 5/5 [00:46<00:00,  7.72s/it]100%|██████████| 5/5 [00:46<00:00,  9.38s/it]
+
+
+
+
+Question: In March 2025, which international bank was the first to launch an innovative digital currency project?
+Correct Answer: JPMorgan Chase
+Generating query...
+Prompt length: 51 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 29 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (477 tokens), truncating to 250...
+Truncated content from 477 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 343 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which international bank was the first to launch an innovative digital currency project?
+Correct Answer: JPMorgan Chase
+Search query: In March 2025, which international bank was the first to launch an innovative digital currency project?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.bis.org/about/bisih/about.htm', 'https://www.globalgovernmentfintech.com/uae-digital-dirham-launch-date/', 'https://www.ledgerinsights.com/uae-to-launch-cbdc-in-q4-2025/']
+########################################
+
+
+
+
+Question: In March 2025, an emerging sport was officially included in the International Olympic Committee’s event roster for the first time. Which sport is it?
+Correct Answer: Drone Racing
+Generating query...
+Prompt length: 62 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 40 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Request to https://olympics.com/ioc/news/la28-event-programme-marks-strong-commitment-towards-innovation-and-gender-equality timed out
+Request to https://olympics.com/ioc/news/olympic-highlights-13-04-2025 timed out
+########################################
+User input: In March 2025, an emerging sport was officially included in the International Olympic Committee’s event roster for the first time. Which sport is it?
+Correct Answer: Drone Racing
+Search query: In March 2025, an emerging sport was officially included in the International Olympic Committee’s event roster for the first time. Which sport is it?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+No web content found for RAG
+
+
+Reference: ['https://olympics.com/ioc/news/la28-event-programme-marks-strong-commitment-towards-innovation-and-gender-equality', 'https://www.hkolympic.org/archive/press-release/?id=824', 'https://olympics.com/ioc/news/olympic-highlights-13-04-2025']
+########################################
+
+
+
+
+Question: In March 2025, which country approved the establishment of its first national-level Virtual Reality Education Center?
+Correct Answer: Singapore
+Generating query...
+Prompt length: 53 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 31 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (370 tokens), truncating to 250...
+Truncated content from 370 to 240 tokens
+Error extracting content from https://www.unesco.org/en/higher-education/conventions: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Generating final response with RAG...
+Final prompt length: 286 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which country approved the establishment of its first national-level Virtual Reality Education Center?
+Correct Answer: Singapore
+Search query: In March 2025, which country approved the establishment of its first national-level Virtual Reality Education Center?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.studies-overseas.com/news/study-abroad-virtual-education-fair', 'https://www.unesco.org/en/higher-education/conventions', 'https://www.facebook.com/100064205705753/videos/official-opening-of-the-workshop-on-emerging-educational-technologies-and-virtua/1003995184962004/']
+########################################
+
+
+
+
+Question: In March 2025, which highly anticipated science fiction novel won the Hugo Award?
+Correct Answer: Interstellar Wanderers
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (2476 tokens), truncating to 250...
+Truncated content from 2476 to 240 tokens
+Content too large (1802 tokens), truncating to 250...
+Truncated content from 1802 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 530 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which highly anticipated science fiction novel won the Hugo Award?
+Correct Answer: Interstellar Wanderers
+Search query: In March 2025, which highly anticipated science fiction novel won the Hugo Award?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.thehugoawards.org/', 'https://www.newscientist.com/article/2470627-the-best-new-science-fiction-books-of-march-2025/', 'https://bookriot.com/2025-hugo-awards-finalists/']
+########################################
+
+
+
+
+Question: In March 2025, which scientist was specially recognized for breakthroughs in biotechnology?
+Correct Answer: Professor Li Ming
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (3693 tokens), truncating to 250...
+Truncated content from 3693 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 294 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which scientist was specially recognized for breakthroughs in biotechnology?
+Correct Answer: Professor Li Ming
+Search query: In March 2025, which scientist was specially recognized for breakthroughs in biotechnology?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.drugdiscoverynews.com/2025-breakthrough-prizes-in-life-sciences-announced-16293', 'https://finance.yahoo.com/news/aavantgarde-tigem-publish-groundbreaking-research-060000567.html', 'https://www.nytimes.com/2025/03/10/technology/ai-science-lab-lila.html']
+########################################
+
+Processing batch 6 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:05<00:22,  5.62s/it] 40%|████      | 2/5 [00:09<00:14,  4.67s/it] 60%|██████    | 3/5 [00:24<00:18,  9.23s/it] 80%|████████  | 4/5 [00:30<00:08,  8.18s/it]Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+100%|██████████| 5/5 [00:40<00:00,  8.71s/it]100%|██████████| 5/5 [00:40<00:00,  8.10s/it]
+
+
+
+
+Question: In March 2025, the inaugural Global Environmental Innovation Summit was held in which country?
+Correct Answer: Norway
+Generating query...
+Prompt length: 50 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 28 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (1765 tokens), truncating to 250...
+Truncated content from 1765 to 240 tokens
+Content too large (32397 tokens), truncating to 250...
+Truncated content from 32397 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 481 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, the inaugural Global Environmental Innovation Summit was held in which country?
+Correct Answer: Norway
+Search query: In March 2025, the inaugural Global Environmental Innovation Summit was held in which country?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.oneearthsummit.org/', 'https://giid.org/global-summit/', 'https://wsds.teriin.org/']
+########################################
+
+
+
+
+Question: In March 2025, which city launched the world’s first fully smart waste-sorting system?
+Correct Answer: Tokyo
+Generating query...
+Prompt length: 53 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 31 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (929 tokens), truncating to 250...
+Truncated content from 929 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 285 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which city launched the world’s first fully smart waste-sorting system?
+Correct Answer: Tokyo
+Search query: In March 2025, which city launched the world’s first fully smart waste-sorting system?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.envacgroup.com/news/envac-korea-marks-30-years-of-pioneering-smart-waste-management/', 'https://sg.finance.yahoo.com/news/smart-waste-management-market-trends-082300485.html', 'https://www.instagram.com/envac_official/p/DHYHYCtu2dH/big-milestone-30-years-of-smart-waste-collection-in-south-koreaenvac-korea-celeb/?locale=zh-hans']
+########################################
+
+
+
+
+Question: In March 2025, which government announced that it would achieve nationwide 5G coverage by the end of 2025?
+Correct Answer: South Korea
+Generating query...
+Prompt length: 59 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 37 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (1512 tokens), truncating to 250...
+Truncated content from 1512 to 240 tokens
+Content too large (1086 tokens), truncating to 250...
+Truncated content from 1086 to 240 tokens
+Content too large (1065 tokens), truncating to 250...
+Truncated content from 1065 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 536 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which government announced that it would achieve nationwide 5G coverage by the end of 2025?
+Correct Answer: South Korea
+Search query: In March 2025, which government announced that it would achieve nationwide 5G coverage by the end of 2025?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://en.vcci.com.vn/5g-infrastructure-receiving-push-due-to-bespoke-policies', 'https://vir.com.vn/5g-infrastructure-receiving-push-due-to-bespoke-policies-126252.html', 'https://www.rcrwireless.com/20250417/5g/india-dot-seeks-info-chinese']
+########################################
+
+
+
+
+Question: In March 2025, which entrepreneur was appointed as the new CEO of the world’s largest online streaming platform?
+Correct Answer: Steven Scott
+Generating query...
+Prompt length: 55 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 33 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (11550 tokens), truncating to 250...
+Truncated content from 11550 to 240 tokens
+Content too large (13252 tokens), truncating to 250...
+Truncated content from 13252 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 531 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which entrepreneur was appointed as the new CEO of the world’s largest online streaming platform?
+Correct Answer: Steven Scott
+Search query: In March 2025, which entrepreneur was appointed as the new CEO of the world’s largest online streaming platform?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://thegreatentrepreneurs.com/the-top-50-data-tech-entrepreneurs-of-2025/', 'https://www.instagram.com/fortunemag/p/DHPbINQzxMR/?api=WhatsApp%E7%BE%A4%E5%8F%91%E6%8B%89%E7%BE%A4%E5%8D%8F%E8%AE%AE%F0%9F%92%B0-[%E8%AE%A4%E5%87%86%E5%A4%A7%E8%BD%A9TG%3A%40TC2397431747]-WS%E6%8B%89%E7%BE%A4%E8%BD%AF%E4%BB%B6%2FWs%E8%87%AA%E5%8A%A8%E6%8B%89%E7%BE%A4%2FWS%E7%AD%9B%E9%80%89%E5%B7%A5%E5%85%B7.uezt&hl=ne', 'https://en.wikipedia.org/wiki/Jeff_Bezos']
+########################################
+
+
+
+
+Question: In March 2025, which international observatory was the first to capture signals of a novel celestial movement at the edge of the Solar System?
+Correct Answer: The Chilean Atacama Observatory
+Generating query...
+Prompt length: 62 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 40 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (790 tokens), truncating to 250...
+Truncated content from 790 to 240 tokens
+Content too large (1748 tokens), truncating to 250...
+Truncated content from 1748 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 539 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which international observatory was the first to capture signals of a novel celestial movement at the edge of the Solar System?
+Correct Answer: The Chilean Atacama Observatory
+Search query: In March 2025, which international observatory was the first to capture signals of a novel celestial movement at the edge of the Solar System?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.simonsfoundation.org/2025/03/17/simons-observatory-large-aperture-telescope-achieves-first-light-milestone/', 'https://www.theguardian.com/science/live/2025/mar/29/partial-solar-eclipse-watch-live-moon-blocks-sun-northern-hemisphere-latest-news-pictures?page=with:block-67e7b22b8f08bb7e41c34de9', 'https://www.nasa.gov/wp-content/uploads/2025/03/newsnotes-42-1.pdf?emrc=67d068e73620e?emrc=4b964b']
+########################################
+
+Processing batch 7 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:04<00:18,  4.59s/it] 40%|████      | 2/5 [00:10<00:16,  5.49s/it]Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+ 60%|██████    | 3/5 [00:16<00:10,  5.46s/it] 80%|████████  | 4/5 [00:19<00:04,  4.75s/it]100%|██████████| 5/5 [00:25<00:00,  5.09s/it]100%|██████████| 5/5 [00:25<00:00,  5.10s/it]
+
+
+
+
+Question: In March 2025, which renowned artist showcased stunning holographic art at the Venice Biennale?
+Correct Answer: Takashi Murakami
+Generating query...
+Prompt length: 56 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 34 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (43100 tokens), truncating to 250...
+Truncated content from 43100 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 287 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which renowned artist showcased stunning holographic art at the Venice Biennale?
+Correct Answer: Takashi Murakami
+Search query: In March 2025, which renowned artist showcased stunning holographic art at the Venice Biennale?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.instagram.com/venice.art.biennale/p/DHLKk_QKfB2/artists-benjamin-orlow-klara-kristalova-and-tori-wr%C3%A5nes-will-present-their-works/', 'https://www.instagram.com/itsliquidgroup/p/DHVh18fil-K/?locale=zh-TW&hl=am-et', 'https://www.taikwun.hk/en/taikwun/press/press_release']
+########################################
+
+
+
+
+Question: In March 2025, which automobile manufacturer unveiled its first solar-powered concept car?
+Correct Answer: Toyota
+Generating query...
+Prompt length: 49 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 27 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (691 tokens), truncating to 250...
+Truncated content from 691 to 240 tokens
+Content too large (423 tokens), truncating to 250...
+Truncated content from 423 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 525 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which automobile manufacturer unveiled its first solar-powered concept car?
+Correct Answer: Toyota
+Search query: In March 2025, which automobile manufacturer unveiled its first solar-powered concept car?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.designboom.com/technology/toyota-microcar-ft-me-solar-panel-roof-power-battery-without-charger-03-15-2025/', 'https://www.electrichybridvehicletechnology.com/news/ces-2025-aptera-unveils-production-ready-solar-ev.html', 'https://www.instagram.com/e_vehicleinfo/reel/DHYn_PmTTbk/']
+########################################
+
+
+
+
+Question: In March 2025, which well-known entrepreneur revealed a revolutionary hydrogen energy plan at the Global Energy Summit?
+Correct Answer: Elon Musk
+Generating query...
+Prompt length: 54 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 32 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (753 tokens), truncating to 250...
+Truncated content from 753 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 287 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which well-known entrepreneur revealed a revolutionary hydrogen energy plan at the Global Energy Summit?
+Correct Answer: Elon Musk
+Search query: In March 2025, which well-known entrepreneur revealed a revolutionary hydrogen energy plan at the Global Energy Summit?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://renewableaffairs.com/news/global-hydrogen-renewable-energy-summit/', 'https://www.hkexnews.hk/listedco/listconews/sehk/2025/0416/2025041601260.pdf', 'https://issuu.com/the-eic/docs/inside_energy_march_2025']
+########################################
+
+
+
+
+Question: In March 2025, the World Health Organization introduced a new global disease prevention strategy. Which disease was the primary focus?
+Correct Answer: H7N9 influenza
+Generating query...
+Prompt length: 56 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 34 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (1060 tokens), truncating to 250...
+Truncated content from 1060 to 240 tokens
+Content too large (2801 tokens), truncating to 250...
+Truncated content from 2801 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 532 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, the World Health Organization introduced a new global disease prevention strategy. Which disease was the primary focus?
+Correct Answer: H7N9 influenza
+Search query: In March 2025, the World Health Organization introduced a new global disease prevention strategy. Which disease was the primary focus?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.who.int/news/item/20-03-2025-who-calls-for-urgent-action-to-address-worldwide-disruptions-in-tuberculosis-services-putting-millions-of-lives-at-risk', 'https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON564', 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00036-4/fulltext']
+########################################
+
+
+
+
+Question: In March 2025, which international co-produced blockbuster won the Best Film award at the Cannes Film Festival?
+Correct Answer: Eternal Light
+Generating query...
+Prompt length: 58 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 36 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (11201 tokens), truncating to 250...
+Truncated content from 11201 to 240 tokens
+Content too large (1941 tokens), truncating to 250...
+Truncated content from 1941 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 525 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which international co-produced blockbuster won the Best Film award at the Cannes Film Festival?
+Correct Answer: Eternal Light
+Search query: In March 2025, which international co-produced blockbuster won the Best Film award at the Cannes Film Festival?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.hollywoodreporter.com/lists/cannes-2025-movie-lineup-predictions/', 'https://en.wikipedia.org/wiki/2025_in_film', 'https://deadline.com/2025/04/thierry-fremaux-mission-impossible-hollywood-oscars-1236365440/']
+########################################
+
+Processing batch 8 of 8
+  0%|          | 0/5 [00:00<?, ?it/s] 20%|██        | 1/5 [00:08<00:32,  8.07s/it] 40%|████      | 2/5 [00:28<00:46, 15.45s/it] 60%|██████    | 3/5 [00:33<00:20, 10.50s/it] 80%|████████  | 4/5 [00:38<00:08,  8.26s/it]100%|██████████| 5/5 [00:43<00:00,  7.27s/it]100%|██████████| 5/5 [00:43<00:00,  8.73s/it]
+
+
+
+
+Question: In March 2025, a new environmental technology was hailed as a green hope for future cities. What is the technology?
+Correct Answer: Seawater Desalination and Reuse System
+Generating query...
+Prompt length: 57 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 35 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (6067 tokens), truncating to 250...
+Truncated content from 6067 to 240 tokens
+Content too large (1271 tokens), truncating to 250...
+Truncated content from 1271 to 240 tokens
+Content too large (12696 tokens), truncating to 250...
+Truncated content from 12696 to 240 tokens
+Generating final response with RAG...
+Too many content sources, limiting to top 2
+Final prompt length: 532 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, a new environmental technology was hailed as a green hope for future cities. What is the technology?
+Correct Answer: Seawater Desalination and Reuse System
+Search query: In March 2025, a new environmental technology was hailed as a green hope for future cities. What is the technology?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.genevaenvironmentnetwork.org/resources/newsletter/environment-whats-up-in-geneva-14-27-april-2025/', 'https://www.chinadailyhk.com/hk/article/606227', 'https://ecologi.com/articles/blog/good-news-timeline']
+########################################
+
+
+
+
+Question: In March 2025, which athlete broke the world record for the men’s 100-meter sprint at an international track and field event?
+Correct Answer: Li Hongyue
+Generating query...
+Prompt length: 63 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 41 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (1952 tokens), truncating to 250...
+Truncated content from 1952 to 240 tokens
+Request to https://www.olympics.com/en/news/world-athletics-indoor-championships-2025-nanjing-day2-recap-duplantis-holloway-mujinga-kambundji-ingebrigtsen-golds timed out
+Content too large (1343 tokens), truncating to 250...
+Truncated content from 1343 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 538 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which athlete broke the world record for the men’s 100-meter sprint at an international track and field event?
+Correct Answer: Li Hongyue
+Search query: In March 2025, which athlete broke the world record for the men’s 100-meter sprint at an international track and field event?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://en.wikipedia.org/wiki/List_of_world_records_in_athletics', 'https://www.olympics.com/en/news/world-athletics-indoor-championships-2025-nanjing-day2-recap-duplantis-holloway-mujinga-kambundji-ingebrigtsen-golds', 'https://athletics.org.nz/record-breaking-team-for-2025-world-athletics-indoor-championships-in-nanjing-announced/']
+########################################
+
+
+
+
+Question: In March 2025, which university received an international award for its outstanding contributions in artificial intelligence research?
+Correct Answer: Massachusetts Institute of Technology (MIT)
+Generating query...
+Prompt length: 52 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 30 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (865 tokens), truncating to 250...
+Truncated content from 865 to 240 tokens
+Content too large (1237 tokens), truncating to 250...
+Truncated content from 1237 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 529 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which university received an international award for its outstanding contributions in artificial intelligence research?
+Correct Answer: Massachusetts Institute of Technology (MIT)
+Search query: In March 2025, which university received an international award for its outstanding contributions in artificial intelligence research?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://ce.hkust.edu.hk/news/hkust-achieves-record-breaking-results-50th-international-exhibition-inventions-geneva', 'https://m.facebook.com/hkudatascience/photos/professor-chao-huang-is-honoured-one-of-the-100-young-pioneers-in-artificial-int/648655091245875/', 'https://www.media.mit.edu/']
+########################################
+
+
+
+
+Question: In March 2025, which new fintech product sparked a global investment frenzy?
+Correct Answer: Blockchain Asset Management Platform
+Generating query...
+Prompt length: 51 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 29 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (5322 tokens), truncating to 250...
+Truncated content from 5322 to 240 tokens
+Content too large (467 tokens), truncating to 250...
+Truncated content from 467 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 527 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which new fintech product sparked a global investment frenzy?
+Correct Answer: Blockchain Asset Management Platform
+Search query: In March 2025, which new fintech product sparked a global investment frenzy?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://opentools.ai/news/march-2025-a-unicorn-surge-in-the-ai-and-fintech-realms', 'https://www.fxempire.com/forecasts/article/klarna-ipo-could-spark-an-avalanche-of-fintech-listings-in-2025-1499891', 'https://m.economictimes.com/news/international/new-zealand/ripples-legal-abeyance-sparks-xrp-etf-frenzy-amidst-broader-crypto-market-jitters/articleshow/120377078.cms']
+########################################
+
+
+
+
+Question: In March 2025, which female entrepreneur was honored with an international award for her outstanding contributions to sustainable development?
+Correct Answer: Maria Rodriguez
+Generating query...
+Prompt length: 54 tokens
+Error generating search query: list index out of range
+Generating response with no RAG...
+Prompt length: 32 tokens
+Error generating response without RAG: list index out of range
+Searching...
+Found 3 search results
+Extracting main content...
+Content too large (737 tokens), truncating to 250...
+Truncated content from 737 to 240 tokens
+Generating final response with RAG...
+Final prompt length: 285 tokens
+Error generating response with RAG: list index out of range
+########################################
+User input: In March 2025, which female entrepreneur was honored with an international award for her outstanding contributions to sustainable development?
+Correct Answer: Maria Rodriguez
+Search query: In March 2025, which female entrepreneur was honored with an international award for her outstanding contributions to sustainable development?
+
+Model's response with no RAG:
+Error generating response without RAG.
+
+
+Final response with RAG:
+Error generating response with RAG.
+
+
+Reference: ['https://www.sqm.com/en/noticia/13-mujeres-destacadas-reciben-el-premio-liderazgo-femenino-2025/', 'https://www.facebook.com/graceladiesglobalacademy/posts/-exciting-news-we-are-proud-to-share-that-dr-sona-pandey-hc-president-of-grace-l/671739295380471/', 'https://thefridaytimes.com/15-Apr-2025/fiza-farhan-named-among-40-under-40-global-leaders-only-pakistani-honoree-at-2025-dubai-summit']
+########################################
+
+RAG demo completed successfully!
+Results saved to question_results/

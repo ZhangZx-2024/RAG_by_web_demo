@@ -96,12 +96,13 @@ while(True):
     if(user_input == "exit"):
         break
     print("\n\n\n")
-    print("Generating query...")
-    search_query = generate_search_query(user_input)
+    # print("Generating query...")
+    # search_query = generate_search_query(user_input)
     print("Generating response with no RAG...")
     answer = generate_response_no_RAG(user_input)
     print("Searching...")
-    search_results = search_web(search_query)
+    # search_results = search_web(search_query)
+    search_results = search_web(user_input)
     print("Extracting main content...")
     main_contents = []
     for url in search_results:
@@ -111,7 +112,7 @@ while(True):
     response = generate_response(user_input, main_contents)
     print("########################################")
     print(f"User input: {user_input}")
-    print(f"Search query: {search_query}\n")
+    # print(f"Search query: {search_query}\n")
     print(f"Model's response with no RAG:\n{answer}\n\n")
     
     print(f"Final response with RAG:\n{response}\n\n")
