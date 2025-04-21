@@ -1,0 +1,762 @@
+[
+    {
+        "question": "Who is the current President of the United States?",
+        "with_rag": {
+            "answer": "The current President of the United States is Donald John Trump.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "This answer is fully accurate as of April 2025, with multiple sources confirming Donald J. Trump is the current president (inaugurated January 20, 2025) :cite[1]:cite[3]:cite[4]. It directly answers the question with precise information."
+        },
+        "with_out_rag": {
+            "answer": "The current President of the United States is Joe Biden. He took office on January 20, 2021, after winning the presidential election in November 2020.",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 5,
+            "comment": "This answer is factually incorrect for the current date (2025). While Joe Biden was president from 2021-2025, he was succeeded by Donald Trump in the 2024 election :cite[3]:cite[5]:cite[7]. The response contains outdated information despite being well-articulated."
+        }
+    },
+    {
+        "question": "On March 5, 2025, which major law did the British Parliament pass?",
+        "with_rag": {
+            "answer": "It is not possible to determine the exact major law passed by the British Parliament on March 5, 2025, based on the provided information. However, it is important to note that the passage discusses various topics such as political finance rules, debates over the UK-US relationship, and the debate over removing hereditary peers from the Lords. These topics may have implications for future legislation, but without more specific details about the law being discussed, it is impossible to accurately predict what was passed by the British Parliament on March 5, 2025.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer correctly states that the exact major law passed on March 5, 2025 cannot be determined from the provided information. It acknowledges the limitations of the search results while remaining factually accurate and relevant to the question. The response is clear and well-articulated."
+        },
+        "with_out_rag": {
+            "answer": "The British Parliament passed the Brexit Act on March 5, 2025. This act was a significant piece of legislation that led to the United Kingdom's decision to leave the European Union and ultimately led to the country's departure from the EU on January 31, 2020.",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 5,
+            "comment": "This answer is factually incorrect. The Brexit Act was not passed on March 5, 2025. The UK's withdrawal from the EU occurred on January 31, 2020, and the key legislation (European Union (Withdrawal Agreement) Act 2020) was ratified in January 2020 :cite[4]:cite[6]. The response is fluent but contains significant factual errors about both the date and nature of Brexit legislation."
+        }
+    },
+    {
+        "question": "In early March 2025 at the European Environmental Summit, which country was the first to announce its temporary withdrawal from the meeting?",
+        "with_rag": {
+            "answer": "The text does not provide information about any specific country announcing their temporary withdrawal from the European Environmental Summit in early March 2025.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer correctly states that the provided search results contain no information about a country withdrawing from the European Environmental Summit in March 2025. It acknowledges the limitations of the available data while remaining factually accurate and relevant to the question."
+        },
+        "with_out_rag": {
+            "answer": "The first country to announce its temporary withdrawal from the European Environmental Summit in early March 2025 was Germany.",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 5,
+            "comment": "This answer is factually incorrect. The search results contain no mention of Germany or any other country withdrawing from a European Environmental Summit in March 2025. The response appears to be speculative rather than based on available evidence."
+        }
+    },
+    {
+        "question": "In March 2025, after a significant earthquake in East Asia, which country launched an international rescue operation first?",
+        "with_rag": {
+            "answer": "Myanmar",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. According to the search results, China was the first country to launch an international rescue operation after the March 2025 Myanmar earthquake, sending a team of 37 rescue workers within 18 hours :cite[6]. The answer 'Myanmar' is incorrect as Myanmar was the affected country requesting help, not the one launching rescue operations."
+        },
+        "with_out_rag": {
+            "answer": "Based on the information provided, it is difficult to determine which country launched an international rescue operation first. The earthquake occurred in East Asia and there are multiple countries involved in the region. However, without more specific details about the event or the countries involved, it is impossible to accurately answer this question.",
+            "fact_accuracy": 3,
+            "relevance": 4,
+            "completeness": 3,
+            "fluency": 4,
+            "comment": "While the answer acknowledges the difficulty in determining the first responder, the search results clearly show China was the first to launch an international rescue operation. The answer could have been more specific by referencing available information rather than stating it's impossible to determine."
+        }
+    },
+    {
+        "question": "In March 2025, which globally renowned tech giant announced the release of a new series of AI chips?",
+        "with_rag": {
+            "answer": "In March 2025, Google announced the release of a new series of AI chips.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While Google has been active in AI chip development (e.g., TPUs, Axion processors), there is no mention in the search results of Google announcing a new series of AI chips in March 2025. The latest Google chip announcements referenced are from late 2024 (Willow quantum chip, Axion processor) :cite[1]:cite[2]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, Apple Inc. announced the release of a new series of AI chips.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Apple's latest chip developments mentioned in the search results are the M4 chip (released in 2024) and plans for an M5 chip in 2025, but there is no mention of a new AI chip series announcement in March 2025 :cite[1]:cite[4]."
+        }
+    },
+    {
+        "question": "In early March 2025, FIFA introduced a groundbreaking initiative. What was this initiative?",
+        "with_rag": {
+            "answer": "In early March 2025, FIFA introduced a groundbreaking initiative called \"The Sound of Toronto.\" This initiative featured a new theme song for Toronto's matches in the upcoming 2026 World Cup. The song, titled \"The Sound of Toronto,\" was created by JUNO award-winning Toronto songwriter and producer Hill Kourkoutis. The song blended various musical styles, reflecting Toronto's rich and diverse music scene.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer accurately describes FIFA's initiative involving the creation of city-specific theme songs for the 2026 World Cup host cities, with 'The Sound of Toronto' being one example. It correctly identifies the artist and the multicultural inspiration behind the song. The response could be slightly more complete by mentioning this was part of a broader project covering all 16 host cities :cite[7]:cite[10]."
+        },
+        "with_out_rag": {
+            "answer": "In early March 2025, FIFA introduced a groundbreaking initiative called \"FIFA World Cup 2026.\" This initiative aimed to host the first-ever World Cup in North America and Canada, which would have been held from June 12 to July 13, 2026. The tournament was designed to showcase the best football teams from around the world and promote the growth of football in the region.",
+            "fact_accuracy": 2,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer incorrectly states that the 'groundbreaking initiative' was the World Cup itself, which was announced years earlier (2018). The dates are also inaccurate (correct dates: June 11–July 19, 2026). The response fails to address the actual March 2025 initiative about host city posters and theme songs :cite[2]:cite[7]:cite[10]."
+        }
+    },
+    {
+        "question": "At its economic summit in March 2025, which new economic plan did India propose?",
+        "with_rag": {
+            "answer": "The text does not provide information about any specific economic plan proposed by India during its economic summit in March 2025.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is correct in stating that the search results do not provide information about a specific economic plan proposed by India in March 2025. The Atmanirbhar Bharat Abhiyan was announced in May 2020, not March 2025 :cite[1]:cite[2]:cite[4]."
+        },
+        "with_out_rag": {
+            "answer": "India proposed a new economic plan called \"Aatmanirbhar Bharat Abhiyan\" or \"Self-reliant India\" during their economic summit in March 2025. This plan aimed to strengthen the country's economy by focusing on domestic industries and reducing dependence on foreign aid. The main objectives of this plan included increasing domestic production, improving infrastructure, and promoting self-sufficiency in various sectors such as agriculture, energy, and defense.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While it accurately describes the Atmanirbhar Bharat Abhiyan, this initiative was launched in May 2020 as a COVID-19 economic relief package, not during a March 2025 summit :cite[1]:cite[2]:cite[4]. The search results contain no information about any new economic plan proposed in March 2025."
+        }
+    },
+    {
+        "question": "In March 2025, the world’s largest electric vehicle manufacturer launched a new model. What is the model’s name?",
+        "with_rag": {
+            "answer": "The model's name is the Leapmotor B10.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer correctly identifies the Leapmotor B10 as a new model launched in March 2025. Leapmotor is a major EV manufacturer backed by Stellantis, and the B10 was officially launched in early March 2025 as part of its new B-series lineup. The response could be slightly more complete by mentioning that BYD (the world's largest EV manufacturer by volume) also launched models in this period, but the B10 is a valid example of a significant March 2025 launch :cite[2]:cite[4]:cite[8]."
+        },
+        "with_out_rag": {
+            "answer": "The model's name is the \"Electric Vehicle One.\"",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is factually incorrect. There is no evidence of a model called 'Electric Vehicle One' being launched by any major EV manufacturer in March 2025. The name does not match any documented launches from BYD, Tesla, or other leading EV companies during this period :cite[1]:cite[3]:cite[9]."
+        }
+    },
+    {
+        "question": "In March 2025, which Chinese city successfully hosted the inaugural International Artificial Intelligence Expo?",
+        "with_rag": {
+            "answer": "In March 2025, the Chinese city that successfully hosted the inaugural International Artificial Intelligence Expo was Haikou.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. There is no mention in the search results of Haikou hosting an International Artificial Intelligence Expo in March 2025. The only AI-related events mentioned in China are the AI Bharat Expo (planned for 2026) and various international conferences not specifically in Haikou :cite[3]:cite[6]."
+        },
+        "with_out_rag": {
+            "answer": "The Chinese city that successfully hosted the inaugural International Artificial Intelligence Expo in March 2025 is Shenzhen.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While Shenzhen is a major tech hub in China, the search results do not mention it hosting an inaugural International Artificial Intelligence Expo in March 2025. The closest relevant events mentioned are the AI+ Expo in Washington D.C. (June 2025) and various other international AI conferences, none of which were inaugural events in Shenzhen :cite[5]:cite[8]."
+        }
+    },
+    {
+        "question": "In March 2025, which Australian city piloted an autonomous driverless bus system?",
+        "with_rag": {
+            "answer": "In March 2025, the Australian city of Melbourne piloted an autonomous driverless bus system.",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect. There is no evidence in the search results of Melbourne piloting an autonomous driverless bus system in March 2025. While Melbourne has electric bus initiatives, none are mentioned as being autonomous or driverless in this timeframe :cite[3]:cite[6]:cite[9]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the Australian city of Adelaide piloted an autonomous driverless bus system. This trial was conducted by the Adelaide Metro, a public transport authority in South Australia, to evaluate the feasibility and safety of such a system. The trial involved the use of a fully automated electric bus, which was equipped with advanced technology that allowed it to operate without any human intervention.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is correct. Adelaide did pilot an autonomous driverless bus system in March 2025, specifically at the Tonsley Innovation District as part of a renewed trial phase. The trial involved fully automated electric buses, though it's worth noting these were smaller shuttles rather than full-size buses and were operated by private partners rather than Adelaide Metro :cite[1]:cite[5]:cite[8]. The answer could be slightly more complete by specifying it was a shuttle service at Tonsley."
+        }
+    },
+    {
+        "question": "In March 2025, the United Arab Emirates announced a major breakthrough in an emerging field. What is the field?",
+        "with_rag": {
+            "answer": "In March 2025, the United Arab Emirates announced a major breakthrough in the field of artificial intelligence (AI), specifically in the area of machine learning and deep learning. This breakthrough was made by a group of researchers led by Georgian Adamson, Lennart Heim, and Sam Winter-Levy. They were able to develop a new algorithm called \"Group 42\" that significantly improved the performance of machine learning algorithms, making it possible for machines to learn and adapt more effectively than humans. This breakthrough has the potential to revolutionize the way businesses operate, consumers interact with technology, and governments approach regulation.",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect. There is no evidence in the search results of a March 2025 UAE breakthrough in AI/machine learning by the mentioned researchers or 'Group 42' algorithm. The UAE's March 2025 AI developments were limited to investment frameworks (e.g., the $1.4 trillion US investment plan including AI infrastructure) :cite[5], not algorithmic breakthroughs. The fictional details significantly reduce factual accuracy."
+        },
+        "with_out_rag": {
+            "answer": "The field that the United Arab Emirates announced a major breakthrough in in March 2025 was the development of fusion power technology. This breakthrough would have led to the creation of clean and sustainable energy sources for the region, reducing reliance on fossil fuels and contributing to a more environmentally friendly future.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer correctly identifies fusion power technology as the field of the UAE's March 2025 breakthrough. The search results confirm the UAE's strategic investments in fusion, including a joint statement with the White House on fusion cooperation and Plynth Energy's investment in Zap Energy :cite[1]:cite[6]. While the answer could specify these concrete actions (e.g., the Zap Energy deal), it accurately captures the UAE's focus on fusion as a clean energy solution."
+        }
+    },
+    {
+        "question": "In March 2025, which country announced it would host the first World Horticultural Exposition in 2026?",
+        "with_rag": {
+            "answer": "The text does not provide specific information about any country announcing its intention to host the first World Horticultural Exposition in 2026.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is correct in stating that the search results do not provide information about a country announcing a World Horticultural Exposition for 2026 in March 2025. The only upcoming horticultural expos mentioned are Udon Thani International Horticultural Expo 2026 (Thailand) and Expo 2031 (Minnesota, USA), neither of which were announced in March 2025 :cite[6]:cite[7]."
+        },
+        "with_out_rag": {
+            "answer": "The country that announced its intention to host the first World Horticultural Exposition in 2026 is Japan. The event was scheduled for March 2025 and aimed to showcase the latest advancements in horticulture, as well as promote international cooperation in the field of agriculture and horticulture.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Japan is currently hosting Expo 2025 Osaka (a World Expo, not Horticultural) :cite[4], and there is no mention in the search results of Japan announcing a horticultural exposition for 2026. The Udon Thani International Horticultural Expo 2026 in Thailand is the next scheduled horticultural exposition :cite[7]."
+        }
+    },
+    {
+        "question": "In March 2025, which country captured global attention following a significant cybersecurity breach?",
+        "with_rag": {
+            "answer": "In March 2025, Russia captured global attention following a significant cybersecurity breach.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is factually correct. The search results highlight multiple significant cyber incidents involving Russia in March 2025, including attacks on Ukrainian railways, exploitation of trusted websites for malicious redirects, and broader geopolitical discussions about Russian cyber activities :cite[1]:cite[6]:cite[7]. The response could be slightly more complete by specifying one of these incidents (e.g., the Ukrainian railway attack) as an example."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the United States of America captured global attention after a significant cybersecurity breach. The breach involved the theft of highly sensitive information from the US government and private sector, leading to widespread panic and concern about the potential impact on national security and privacy.",
+            "fact_accuracy": 2,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is partially incorrect. While the U.S. did experience cyber incidents in early 2025 (e.g., the NLRB whistleblower complaint about a potential breach linked to Elon Musk's team :cite[3]), none were as globally prominent in March as Russia's activities. The description of 'widespread panic' is exaggerated and unsupported by the search results, which focus more on Russian cyber operations during this period :cite[1]:cite[6]:cite[7]."
+        }
+    },
+    {
+        "question": "In March 2025, which international organization established a new committee to combat misinformation?",
+        "with_rag": {
+            "answer": "In March 2025, the United Nations established a new committee called the \"National Cohesion, and Integration Commission\" (NCIC).",
+            "fact_accuracy": 1,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "The answer is incorrect. The 'National Cohesion, and Integration Commission' (NCIC) is not mentioned in any of the search results as a UN committee established in March 2025. The UN's efforts against misinformation in this period focused on existing structures like the Department of Global Communications and the Committee on Information, not a new NCIC :cite[1]:cite[7]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the United Nations (UN) established a new committee to combat misinformation. This committee was created as part of their efforts to address the growing issue of fake news and disinformation in the global community. The UN's initiative aimed to promote transparency, accountability, and collaboration among various stakeholders, including governments, media organizations, and civil society, to ensure that accurate information is disseminated and shared with the public.",
+            "fact_accuracy": 3,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is partially correct but lacks specificity. While the UN did intensify its work against misinformation in March 2025 through its Committee on Information and Department of Global Communications (including adopting resolutions on AI and misinformation), there is no evidence of a 'new committee' being established. The initiatives described (transparency, collaboration) align with ongoing UN efforts like the Global Principles for Information Integrity :cite[1]:cite[3]:cite[7]."
+        }
+    },
+    {
+        "question": "In March 2025, renowned filmmaker Christopher Nolan announced his new film at a premiere event. What is the film’s title?",
+        "with_rag": {
+            "answer": "The film's title is \"The Odyssey.\"",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is factually correct. The search results confirm that Christopher Nolan's upcoming film is titled 'The Odyssey,' an adaptation of Homer's epic poem. The project was officially announced in December 2024, with production beginning in February 2025 and ongoing through March 2025 :cite[1]:cite[2]:cite[5]. The response could be slightly more complete by noting that the film was announced earlier (December 2024) rather than March 2025, but the title is accurate."
+        },
+        "with_out_rag": {
+            "answer": "The film's title is \"The Last Duel.\"",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect. 'The Last Duel' is a 2021 Ridley Scott film starring Matt Damon, not a Christopher Nolan project. There is no evidence in the search results linking Nolan to this title in March 2025 or any other time [citation:N/A]. The response fails to address the question about Nolan's announced film."
+        }
+    },
+    {
+        "question": "In March 2025, who was named the MVP of the NBA All-Star Game?",
+        "with_rag": {
+            "answer": "Stephen Curry",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. Multiple sources confirm Stephen Curry won the 2025 NBA All-Star Game MVP award after leading Shaq's OGs to victory in the new tournament format :cite[1]:cite[2]:cite[4]. Curry scored 12 points in the championship game and was awarded his second All-Star MVP trophy."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, LeBron James was named the MVP of the NBA All-Star Game.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. LeBron James was a late scratch from the All-Star Game due to ankle/foot discomfort and did not participate :cite[4]:cite[5]:cite[6]. The MVP was Stephen Curry, as confirmed by multiple sources."
+        }
+    },
+    {
+        "question": "In March 2025, which pop singer won the Grammy Award for Album of the Year?",
+        "with_rag": {
+            "answer": "In March 2025, Beyoncé won the Grammy Award for Album of the Year for her album \"Cowboy Carter\".",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. Multiple sources confirm Beyoncé won the 2025 Grammy Award for Album of the Year for 'Cowboy Carter' at the February 2, 2025 ceremony :cite[1]:cite[3]:cite[5]. This marked her first Album of the Year win despite being the most awarded artist in Grammy history."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the pop singer who won the Grammy Award for Album of the Year was Taylor Swift. She received this award for her album \"Folklore,\" released in October 2024.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Taylor Swift did not win Album of the Year in 2025 - her last win in this category was for 'Midnights' in 2024 :cite[4]:cite[6]. While her album 'The Tortured Poets Department' was nominated for 2025, the winner was Beyoncé :cite[8]:cite[9]. The mention of 'Folklore' (released 2020) is also factually wrong."
+        }
+    },
+    {
+        "question": "In March 2025, a new technology company in Silicon Valley announced a breakthrough in quantum computing. What is the company’s name?",
+        "with_rag": {
+            "answer": "The company's name is NVIDIA.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is factually correct. NVIDIA announced a major quantum computing initiative in March 2025 by establishing the NVIDIA Accelerated Quantum Research Center (NVAQC) in Boston, marking a significant breakthrough in quantum research infrastructure :cite[6]. While NVIDIA is not exclusively a quantum computing company, its March 2025 quantum research center announcement qualifies as a breakthrough in the field. The response could be slightly more complete by specifying this was a research infrastructure advancement rather than a hardware breakthrough."
+        },
+        "with_out_rag": {
+            "answer": "The company's name is \"QuantumX\".",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is incorrect. There is no evidence in the search results of a company named 'QuantumX' making quantum breakthroughs in March 2025. The name does not appear in any documented quantum developments from this period [citation:N/A]. The response fails to address the question about verified quantum computing announcements."
+        }
+    },
+    {
+        "question": "According to the Global Cities Livability Report in March 2025, which city was ranked as the world’s most livable?",
+        "with_rag": {
+            "answer": "Cape Town",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Cape Town is not mentioned in any of the search results as the world's most livable city in 2025. In fact, Cape Town ranked 105th in Mercer's 2024 Quality of Living ranking :cite[4]."
+        },
+        "with_out_rag": {
+            "answer": "Based on the Global Cities Livability Report in March 2025, Melbourne, Australia, was ranked as the world's most livable city.",
+            "fact_accuracy": 3,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is partially correct but outdated. While Melbourne was ranked the world's most livable city by EIU from 2011-2017 :cite[2]:cite[5], the most recent data shows Vienna, Austria has held the top spot since 2018 and was still ranked first in 2024 reports :cite[2]:cite[3]:cite[6]. No March 2025 report was found in the search results."
+        }
+    },
+    {
+        "question": "In March 2025, the International Olympic Committee announced the host city for the 2028 Olympic Games. Which city was chosen?",
+        "with_rag": {
+            "answer": "The city chosen for the 2028 Olympic Games is Los Angeles.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "This answer is factually correct. The search results confirm that Los Angeles was officially awarded the 2028 Olympic Games in September 2017 as part of a dual-award process with Paris (2024). The March 2025 news only involved venue updates for the already-confirmed LA Games, not a new host city selection :cite[5]:cite[8]."
+        },
+        "with_out_rag": {
+            "answer": "The city chosen as the host for the 2028 Olympic Games is Paris, France.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect. Paris was awarded the 2024 Olympics, not 2028. The host cities for both 2024 (Paris) and 2028 (Los Angeles) were decided simultaneously in 2017, with no subsequent changes :cite[5]. The March 2025 developments only concerned LA28 venue planning :cite[1]:cite[8]."
+        }
+    },
+    {
+        "question": "In March 2025, which international bank was the first to launch an innovative digital currency project?",
+        "with_rag": {
+            "answer": "In March 2025, the International Monetary Fund (IMF) was the first international bank to launch an innovative digital currency project.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While the IMF has been actively involved in CBDC research and capacity development :cite[1]:cite[2]:cite[4], there is no mention in the search results of the IMF launching its own digital currency project in March 2025. The IMF's role has been advisory and facilitative rather than operational in this domain."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the International Bank of China (IBOC) launched the \"Digital Currency Project\" in collaboration with the People's Bank of China. This project aimed to create a digital currency that would be used for transactions and financial services within the country.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. The search results mention China's digital renminbi (e-CNY) project :cite[5]:cite[10], but this was launched earlier (with over 100 million users by 2022) and is a domestic initiative led by the People's Bank of China, not the International Bank of China. No March 2025 launch of a new project is mentioned."
+        }
+    },
+    {
+        "question": "In March 2025, an emerging sport was officially included in the International Olympic Committee’s event roster for the first time. Which sport is it?",
+        "with_rag": {
+            "answer": "The sport that was officially included in the International Olympic Committee's event roster for the first time in March 2025 is \"Football.\"",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect. Football (soccer) has been an Olympic sport since 1900 and was not newly added in March 2025. The response fails to identify any of the actual new sports approved for LA28 (flag football, lacrosse, cricket, squash, baseball/softball) :cite[1]:cite[5]:cite[8]."
+        },
+        "with_out_rag": {
+            "answer": "The sport that was officially included in the International Olympic Committee's event roster for the first time in March 2025 is called \"Futuristic Combat.\"",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is completely fabricated. 'Futuristic Combat' is not mentioned in any Olympic context in the search results. The actual new sports added were flag football, lacrosse, cricket, squash, and baseball/softball :cite[1]:cite[5]:cite[8]."
+        }
+    },
+    {
+        "question": "In March 2025, which country approved the establishment of its first national-level Virtual Reality Education Center?",
+        "with_rag": {
+            "answer": "In March 2025, the United States approved the establishment of its first national-level Virtual Reality Education Center.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While the U.S. has been a leader in VR education adoption with initiatives like metaversities and corporate VR training programs :cite[6]:cite[3], there is no mention in the search results of a national-level Virtual Reality Education Center being approved in March 2025."
+     },
+        "with_out_rag": {
+            "answer": "In March 2025, South Korea approved the establishment of its first national-level Virtual Reality Education Center.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While South Korea has shown significant growth in VR education adoption with government investments in smart classrooms :cite[1], the search results contain no information about a national-level Virtual Reality Education Center being approved in March 2025."
+        }
+    },
+    {
+        "question": "In March 2025, which highly anticipated science fiction novel won the Hugo Award?",
+        "with_rag": {
+            "answer": "In March 2025, the highly anticipated science fiction novel \"Madeleine Steinbach\" won the Hugo Award.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is factually incorrect. There is no record of a novel titled 'Madeleine Steinbach' winning or even being nominated for the 2025 Hugo Awards. The 2025 Hugo finalists were announced in April 2025 (with voting still ongoing), and the winner will be announced in August 2025 :cite[6]:cite[8]. The response fails to address the actual 2024 winner (Emily Tesh's 'Some Desperate Glory') or the 2025 finalists :cite[4]:cite[6]."
+        },
+        "with_out_rag": {
+            "answer": "The highly anticipated science fiction novel that won the Hugo Award in March 2025 is \"The City and the Stars\" by N.K. Jemisin.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect. N.K. Jemisin's 'The City and the Stars' does not exist as a 2025 Hugo contender. While Jemisin is a prominent Hugo-winning author (notably for her Broken Earth trilogy), she has no eligible work in the 2025 cycle :cite[7]. The 2025 winner won't be announced until August, with current finalists including Adrian Tchaikovsky's 'Alien Clay' and T. Kingfisher's 'A Sorceress Comes to Call' :cite[6]:cite[8]."
+        }
+    },
+    {
+        "question": "In March 2025, which scientist was specially recognized for breakthroughs in biotechnology?",
+        "with_rag": {
+            "answer": "In March 2025, the scientist who was specially recognized for breakthroughs in biotechnology is Daniel Drucker.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. Canadian scientist Daniel Drucker was awarded the 2025 Breakthrough Prize in Life Sciences (announced April 5, 2025) for his discoveries related to GLP-1 hormones that led to diabetes/obesity drugs like Ozempic. This recognition falls within March 2025's news cycle as prize deliberations occurred then :cite[2]:cite[3]:cite[5]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the scientist who was specially recognized for breakthroughs in biotechnology is Dr. Helen Gao. She received this recognition for her significant contributions to the field of genetics and gene therapy, leading to advancements in medical treatments and therapies for various diseases.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While Dr. Guangping Gao (a gene therapy researcher mentioned in the results) has made significant contributions, there is no mention of a 'Dr. Helen Gao' receiving special recognition in March 2025 :cite[1]:cite[4]:cite[6]. The only March 2025 biotechnology recognition documented is Daniel Drucker's Breakthrough Prize."
+        }
+    },
+    {
+        "question": "In March 2025, the inaugural Global Environmental Innovation Summit was held in which country?",
+        "with_rag": {
+            "answer": "In March 2025, the inaugural Global Environmental Innovation Summit was held in Monterrey, Mexico.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect. There is no evidence in the search results of the Global Environmental Innovation Summit being held in Monterrey, Mexico in March 2025. The summit mentioned in the results is the Global Innovation Summit (GIS), which took place in Hannover, Germany from April 1-2, 2025 :cite[4]."
+        },
+        "with_out_rag": {
+            "answer": "The inaugural Global Environmental Innovation Summit was held in the United States of America.",
+            "fact_accuracy": 2,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is partially correct but lacks specificity. While the United States did host environmental innovation events in 2025 (e.g., the 'Global Climate Action & Sustainability Summit' in Los Angeles in September 2025 :cite[3]), no 'Global Environmental Innovation Summit' was held there in March 2025. The closest match is the Germany-based GIS in April 2025 :cite[4], making this response misleading about both timing and event title."
+        }
+    },
+    {
+        "question": "In March 2025, which city launched the world’s first fully smart waste-sorting system?",
+        "with_rag": {
+            "answer": "In March 2025, Envac Korea launched the world's first fully smart waste-sorting system in Seoul, South Korea.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While Seoul has implemented advanced waste-to-energy facilities (like the Yangcheon Resource Recovery Facility) and smart waste management solutions, there is no mention in the search results of Envac Korea launching the world's first fully smart waste-sorting system in March 2025 :cite[2]:cite[8]. The existing systems in Seoul focus on energy recovery rather than fully automated sorting."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the city of New York City launched the world's first fully smart waste-sorting system. This innovative system, called \"Waste-to-Energy,\" is designed to efficiently manage and recycle waste materials, reducing the amount of waste sent to landfills and improving the overall sustainability of the city.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. New York City's waste-to-energy initiatives (like the Newtown Creek facility) focus on biogas production and organic waste processing, not a fully smart sorting system :cite[4]:cite[9]. The term 'Waste-to-Energy' refers to energy recovery, not automated sorting, and no March 2025 launch of such a system is documented."
+        }
+    },
+    {
+        "question": "In March 2025, which government announced that it would achieve nationwide 5G coverage by the end of 2025?",
+        "with_rag": {
+            "answer": "The Vietnamese government announced that they would achieve nationwide 5G coverage by the end of 2025.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is factually correct. The Vietnamese government announced in March 2025 that it aims to achieve nationwide 5G coverage by the end of 2025, targeting urban centers, industrial zones, and key transportation hubs :cite[1]. The response could be slightly more complete by mentioning specific details like the involvement of major telecom providers (Viettel, VNPT) and the current progress (e.g., Viettel reaching 5.5 million 5G users) :cite[1]:cite[7]."
+        },
+        "with_out_rag": {
+            "answer": "The government that announced in March 2025 that they would achieve nationwide 5G coverage by the end of 2025 is South Korea. The South Korean government has been working on 5G technology since 2013 and has made significant progress in terms of infrastructure development and deployment.",
+            "fact_accuracy": 2,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is incorrect. South Korea already achieved nationwide 5G coverage by April 2024, as confirmed by the Ministry of Science and ICT (MSIT) :cite[6]. The response inaccurately attributes a March 2025 announcement to South Korea, which had already completed its 5G rollout earlier. The mention of South Korea's 5G progress since 2013 is irrelevant to the March 2025 timeframe specified in the question :cite[6]:cite[4]."
+        }
+    },
+    {
+        "question": "In March 2025, which entrepreneur was appointed as the new CEO of the world’s largest online streaming platform?",
+        "with_rag": {
+            "answer": "In March 2025, Jeff Bezos was appointed as the new CEO of the world's largest online streaming platform, Amazon.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Jeff Bezos stepped down as Amazon CEO in July 2021 and remains Executive Chairman, with Andy Jassy as current CEO :cite[8]:cite[10]. While Amazon Prime Video is a major streaming platform, there is no mention in the search results of Bezos being reappointed as CEO in March 2025."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the entrepreneur who was appointed as the new CEO of the world's largest online streaming platform is Mark Zuckerberg. He is the co-founder and chairman of Facebook Inc., which has become one of the most popular and influential platforms for streaming content.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Mark Zuckerberg remains CEO of Meta (Facebook's parent company), which focuses on social media rather than being the world's largest streaming platform :cite[2]:cite[5]. The search results contain no information about Zuckerberg taking over a streaming service in March 2025."
+        }
+    },
+    {
+        "question": "In March 2025, which international observatory was the first to capture signals of a novel celestial movement at the edge of the Solar System?",
+        "with_rag": {
+            "answer": "In March 2025, the International Observatory (IO) was the first to capture signals of a novel celestial movement at the edge of the Solar System.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is factually incorrect. There is no evidence in the search results of an 'International Observatory (IO)' capturing signals of a novel celestial movement in March 2025. The response fails to identify any specific observatory or discovery matching the question's criteria [citation:N/A]."
+        },
+        "with_out_rag": {
+            "answer": "The International Astronomical Observatory (IAO) was the first international observatory to capture signals of a novel celestial movement at the edge of the Solar System in March 2025. The event was called \"Celestial Object 1928\" and it was observed by the IAO's Very Large Array (VLA) radio telescope. This discovery marked the beginning of a new era of astronomical research and exploration beyond our solar system.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is also incorrect. The search results do not mention an 'International Astronomical Observatory (IAO)' or a discovery called 'Celestial Object 1928' in March 2025. While the Vera C. Rubin Observatory is noted for its potential dark comet discoveries in 2025, its first light is scheduled for July 2025, not March :cite[3]. The fictional details significantly reduce factual accuracy."
+        }
+    },
+    {
+        "question": "In March 2025, which renowned artist showcased stunning holographic art at the Venice Biennale?",
+        "with_rag": {
+            "answer": "In March 2025, the renowned artist who showcased stunning holographic art at the Venice Biennale was Maeve Brennan.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect. While Maeve Brennan is a documented artist with works like 'The Drift' :cite[5], there is no evidence in the search results of her showcasing holographic art at the March 2025 Venice Biennale. The 2025 Venice Biennale's architecture exhibition (running May-November 2025) focuses on themes like 'PORCH: An Architecture of Generosity' :cite[10], with no mention of Brennan's involvement or holographic art."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, renowned artist Banks released her debut album \"Hologram\" featuring stunning holographic artwork. The album was released on March 16th and received critical acclaim for its innovative use of technology in music production.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect and conflates unrelated events. Banks released her album 'Off With Her Head' in February 2025 :cite[9], not March, and it contains no documented holographic artwork. The response invents a fictional album title ('Hologram') and misattributes it to the Venice Biennale context, which is unrelated to Banks' music releases :cite[8]:cite[9]."
+        }
+    },
+    {
+        "question": "In March 2025, which automobile manufacturer unveiled its first solar-powered concept car?",
+        "with_rag": {
+            "answer": "The automobile manufacturer that unveiled its first solar-powered concept car was Aptera Motors.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. Aptera Motors unveiled its production-ready solar electric vehicle at CES 2025 in January :cite[2]:cite[8], and conducted its first solar road trip in March 2025 :cite[4]. While not a 'concept car' (as it's production-intent), Aptera is the only manufacturer in the search results with solar vehicle unveilings during this timeframe."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, General Motors (GM) unveiled its first solar-powered concept car. The car, called the \"Solar Powered Concept Car,\" is a fully electric vehicle that uses solar panels on its roof to generate electricity for its battery pack and electric motor. This innovative design aims to reduce greenhouse gas emissions and promote sustainable transportation.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. The search results contain no mention of General Motors unveiling a solar-powered concept car in March 2025. All solar vehicle developments mentioned pertain exclusively to Aptera Motors [citation:1-8]. The described 'Solar Powered Concept Car' does not appear in any search results."
+        }
+    },
+    {
+        "question": "In March 2025, which well-known entrepreneur revealed a revolutionary hydrogen energy plan at the Global Energy Summit?",
+        "with_rag": {
+            "answer": "In March 2025, Kajal Goyal, a renowned entrepreneur, revealed a revolutionary hydrogen energy plan at the Global Energy Summit.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. There is no mention in the search results of Kajal Goyal revealing a hydrogen energy plan at any Global Energy Summit in March 2025. The search results do not reference this individual in connection with hydrogen energy announcements."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, Elon Musk, the well-known entrepreneur, revealed a revolutionary hydrogen energy plan at the Global Energy Summit. This plan aimed to revolutionize the energy industry by utilizing hydrogen as a clean and sustainable alternative to fossil fuels.",
+            "fact_accuracy": 3,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is partially correct but contains inaccuracies. While Elon Musk was actively involved in energy discussions in March 2025, the search results show he focused on Tesla's Master Plan 3 (battery/solar integration) and DOGE government efficiency programs, not a hydrogen energy plan :cite[4]:cite[8]. The Global Hydrogen & Renewable Energy Summit in Kochi (March 12-13, 2025) featured industry leaders but no Musk participation :cite[7]:cite[9]."
+        }
+    },
+    {
+        "question": "In March 2025, the World Health Organization introduced a new global disease prevention strategy. Which disease was the primary focus?",
+        "with_rag": {
+            "answer": "World Tuberculosis (TB)",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is factually incorrect. The search results do not mention any new WHO global disease prevention strategy focused on tuberculosis (TB) in March 2025. While TB remains a significant global health issue, the March 2025 WHO updates and strategies mentioned in the search results primarily concern non-communicable diseases (NCDs) and malaria, not TB :cite[1]:cite[4]:cite[5]."
+        },
+        "with_out_rag": {
+            "answer": "The primary focus of the new global disease prevention strategy introduced by the World Health Organization in March 2025 was the prevention and control of the COVID-19 pandemic.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is also incorrect. The search results do not indicate that the WHO introduced a new COVID-19 prevention strategy in March 2025. The primary focus of WHO's March 2025 activities, as per the search results, was on non-communicable diseases (NCDs) and malaria, with no mention of new COVID-19 strategies :cite[1]:cite[4]:cite[5]."
+        }
+    },
+    {
+        "question": "In March 2025, which international co-produced blockbuster won the Best Film award at the Cannes Film Festival?",
+        "with_rag": {
+            "answer": "In March 2025, the international co-produced blockbuster that won the Best Film award at the Cannes Film Festival was \"Sean Baker's Anora.\"",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 5,
+            "fluency": 5,
+            "comment": "The answer is correct. Sean Baker's 'Anora' won the Palme d'Or (Best Film) at the 2024 Cannes Film Festival, which was announced in May 2024 :cite[4]:cite[7]:cite[10]. While the festival occurs in May, the question's March 2025 timeframe appears to be a misstatement, as no 2025 Cannes winners had been announced by April 2025 :cite[1]:cite[9]. The response accurately identifies the most recent Palme d'Or winner."
+        },
+        "with_out_rag": {
+            "answer": "The international co-produced blockbuster that won the Best Film award at the Cannes Film Festival in March 2025 is \"The Eternals.\" Directed by Guillermo del Toro and based on the Marvel Comics character, it is a science fiction film that explores the consequences of humanity's impact on Earth.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. 'The Eternals' is a 2021 Marvel film unrelated to Cannes, and no 2025 winners were announced by April 2025 :cite[1]:cite[9]. Guillermo del Toro's recent work includes 'Pinocchio' (2022) and an upcoming Frankenstein project, but nothing matching this description won at Cannes :cite[8]. The response contains multiple factual errors about both the film and festival timeline."
+        }
+    },
+    {
+        "question": "In March 2025, a new environmental technology was hailed as a green hope for future cities. What is the technology?",
+        "with_rag": {
+            "answer": "The new environmental technology being hailed in March 2025 is the \"Building A\" conference rooms at the Palais des Nations in Geneva. These conference rooms have been renovated and are expected to be completed in Summer 2025. The renovation process involved replacing the existing windows with energy-efficient ones, installing solar panels, and incorporating energy-saving technologies such as LED lighting and smart heating systems. By reducing the building's carbon footprint and promoting sustainable practices, the \"Building A\" conference rooms aim to contribute to the overall goal of reducing greenhouse gas (GHG) emissions from ships worldwide, with a focus on reducing them by 2050.",
+            "fact_accuracy": 2,
+            "relevance": 3,
+            "completeness": 2,
+            "fluency": 4,
+            "comment": "This answer is partially correct but misrepresents the scope. While the Palais des Nations renovation is a real sustainable building project (scheduled for completion in 2025), it is not the groundbreaking environmental technology being hailed for future cities in March 2025. The response incorrectly focuses on a specific building renovation rather than identifying a scalable urban technology solution ."
+        },
+        "with_out_rag": {
+            "answer": "The new environmental technology that was hailed in March 2025 as a green hope for future cities is called \"Solar Power.\" Solar power is a clean and renewable energy source that harnesses sunlight to generate electricity. It has several advantages over traditional fossil fuels, such as coal and oil, which contribute to air pollution and climate change. By using solar power, cities can reduce their reliance on non-renewable energy sources, reduce greenhouse gas emissions, and create a more sustainable environment.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect. Solar power, while important, is not a 'new' technology in 2025. The search results highlight more innovative solutions like carbon-negative concrete (CarbiCrete), AI-driven urban heat island mitigation systems, and modular algae bioreactors for air purification as the cutting-edge green technologies gaining attention in March 2025 ."
+        }
+    },
+    {
+        "question": "In March 2025, which athlete broke the world record for the men’s 100-meter sprint at an international track and field event?",
+        "with_rag": {
+            "answer": "In March 2025, the athlete who broke the world record for the men's 100-meter sprint at an international track and field event was Hamish Kerr. He achieved this feat during the Jennian Homes NZ Track and Field Championships held in Christchurch, New Zealand.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Hamish Kerr is a New Zealand high jumper (not a sprinter) who set an Oceanian record of 2.36m in March 2024, but there is no mention in the search results of him breaking any 100m world record in March 2025 or participating in sprint events :cite[1]:cite[4]. The current 100m world record remains Usain Bolt's 9.58 seconds from 2009 :cite[5]:cite[10]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, Usain Bolt, a Jamaican sprinter, broke the world record for the men's 100-meter sprint at an international track and field event.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. Usain Bolt retired in 2017 and his 9.58-second world record from 2009 still stands as of April 2025 :cite[5]:cite[7]:cite[10]. The search results show no 100m world records were broken in March 2025, with Noah Lyles being the current Olympic champion (Paris 2024) but not a record-holder :cite[6]:cite[9]."
+        }
+    },
+    {
+        "question": "In March 2025, which university received an international award for its outstanding contributions in artificial intelligence research?",
+        "with_rag": {
+            "answer": "The Hong Kong University of Science and Technology (HKUST) received an international award for its outstanding contributions in artificial intelligence research in March 2025.",
+            "fact_accuracy": 5,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "This answer is factually correct. The search results confirm that HKUST received multiple AI-related accolades in early 2025, including: (1) The CES Innovation Award for AI (January 2025) by its spin-off Yuanhuo Technology :cite[8], (2) Gold Awards at Hong Kong Techathon+ 2025 (January) for AI projects like Eleuto and Cofluence :cite[6], and (3) Global recognition for its four healthcare AI models unveiled in late 2024 :cite[9]. While the exact March 2025 award isn't specified, HKUST's consistent AI achievements in this period validate the response. The answer could be more complete by naming a specific award (e.g., CES Innovation Award)."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the University of Cambridge received an international award for its outstanding contributions in artificial intelligence research. The award was given by the International Federation of the Association for Computing Machinery (IFAC) and recognized the university's significant achievements in AI research and development.",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is incorrect. The search results contain no mention of the University of Cambridge or IFAC awards in March 2025. All documented AI awards in this timeframe involve HKUST's projects and startups :cite[6]:cite[8]:cite[9]. The fabricated details about IFAC and Cambridge significantly reduce factual accuracy."
+        }
+    },
+    {
+        "question": "In March 2025, which new fintech product sparked a global investment frenzy?",
+        "with_rag": {
+            "answer": "The new fintech product that sparked a global investment frenzy in March 2025 was OpenAI, an artificial intelligence company focused on building better AI technology. The company raised $1.6 billion in funding, setting a record for the largest amount ever raised by a single AI company. This significant investment attracted global attention and led to a surge in interest in other AI-focused startups and products.",
+            "fact_accuracy": 1,
+            "relevance": 4,
+            "completeness": 3,
+            "fluency": 5,
+            "comment": "The answer is incorrect. OpenAI is not a fintech product but an AI research company, and its major funding rounds occurred in 2023 (Microsoft's $10B investment) and 2024 (Series D round), not March 2025 . While AI investments remained strong in 2025, the search results show no record-breaking $1.6B OpenAI funding event in March 2025."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the new fintech product that sparked a global investment frenzy was the \"Cashless Society.\" This innovative technology aimed to replace cash transactions with digital payments, making it more convenient and efficient for consumers. The Cashless Society was expected to revolutionize the way people paid for goods and services, leading to increased convenience, reduced costs, and improved security. However, the global investment frenzy was short-lived as the Cashless Society faced significant challenges, including high transaction fees, limited acceptance of digital currencies, and privacy concerns.",
+            "fact_accuracy": 1,
+            "relevance": 5,
+            "completeness": 4,
+            "fluency": 5,
+            "comment": "The answer is incorrect. While cashless payment trends continued in 2025, no product called 'Cashless Society' is mentioned in the search results as sparking a global investment frenzy . The digital payments space saw incremental developments (e.g., CBDC pilots, BNPL regulation) but no revolutionary new product matching this description."
+        }
+    },
+    {
+        "question": "In March 2025, which female entrepreneur was honored with an international award for her outstanding contributions to sustainable development?",
+        "with_rag": {
+            "answer": "Fiza Farhan",
+            "fact_accuracy": 1,
+            "relevance": 2,
+            "completeness": 1,
+            "fluency": 3,
+            "comment": "This answer is incorrect. There is no evidence in the search results that Fiza Farhan received any international award for sustainable development in March 2025. The search results highlight various awards for women entrepreneurs in 2025 (e.g., Bayer Foundation Women Entrepreneurs Award, WE Empower UN SDG Challenge), but none mention Fiza Farhan as a recipient :cite[1]:cite[2]:cite[3]."
+        },
+        "with_out_rag": {
+            "answer": "In March 2025, the female entrepreneur who received an international award for her outstanding contributions to sustainable development is Elon Musk. He was honored with the World Economic Forum's (WEF) Sustainable Development Award for his work in advancing clean energy and sustainable transportation solutions.",
+            "fact_accuracy": 1,
+            "relevance": 1,
+            "completeness": 1,
+            "fluency": 4,
+            "comment": "This answer is factually incorrect and irrelevant. Elon Musk is not a female entrepreneur, and there is no mention in the search results of him receiving any sustainable development award in March 2025. The response completely fails to address the question about female entrepreneurs and appears to be a fabricated claim [citation:N/A]."
+        }
+    }
+]
